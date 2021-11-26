@@ -1,0 +1,32 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "ryemir",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "you know funny tankman guy?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beep boop fuck you"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ryemir",
+			"boxState": "normal",
+			"expression": "talk2",
+			"text": "imma finna copy his whole flow"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ok"
+		}
+	]
+}
