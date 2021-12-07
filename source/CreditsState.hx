@@ -25,12 +25,12 @@ class CreditsState extends MusicBeatState
 
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
 		['Vs. Ryemir Team'],
-		['Ryemir',		'ryemir',		'Ryemir',					'https://www.youtube.com/channel/UC7ebnCWs1GpYu8-zBGIomKw',	0xFFE37F22],
-		['SansFont99',			'sansfont99',		'Programmer and Charting',				'https://www.youtube.com/channel/UCVkT3Ek7GWxEMpXv3M-YFZQ',		0xFF3498DB],
-		['Wyvern',			'wyvern',		'Ryemir Sprites',				'https://www.youtube.com/channel/UCf3_Kvx4XlX4B8qYqOXT21A',		0xFF9BFFFF],
-		['Madfurp',		'madfurp',		'Background and Logo Art',					'https://www.youtube.com/channel/UCSaQ0Rus0Ig_6vLTx8CAZiw',	0xFF6D00BD],
-		['Etrodis',			'etrodis',		'Vocalist for Guns',				'https://gamebanana.com/members/1893032',		0xFFFFF200],
-		['Goldie',			'goldie',		'Slightly fixing story mode Ryemir',				'https://www.youtube.com/channel/UCbT986C39-RzxiuijyQCrNA',		0xFFEC8409],
+		['Ryemir', 'ryemir', 'Ryemir', 'https://www.youtube.com/channel/UC7ebnCWs1GpYu8-zBGIomKw', 0xFFE37F22],
+		['SansFont99', 'sansfont99', 'Programmer and Charting', 'https://www.youtube.com/channel/UCVkT3Ek7GWxEMpXv3M-YFZQ', 0xFF3498DB],
+		['Wyvern', 'wyvern', 'Ryemir Sprites', 'https://www.youtube.com/channel/UCf3_Kvx4XlX4B8qYqOXT21A', 0xFF9BFFFF],
+		['Madfurp',	 'madfurp', 'Background and Logo Art', 'https://www.youtube.com/channel/UCSaQ0Rus0Ig_6vLTx8CAZiw', 0xFF6D00BD],
+		['Etrodis', 'etrodis', 'Vocalist for Guns', 'https://gamebanana.com/members/1893032', 0xFFFFF200],
+		['Goldie', 'goldie', 'Slightly fixing Story Mode Ryemir', 'https://www.youtube.com/channel/UCbT986C39-RzxiuijyQCrNA', 0xFFD57F16],
 		[''],
 		['Psych Engine Team'],
 		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],

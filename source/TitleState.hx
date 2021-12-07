@@ -165,7 +165,7 @@ class TitleState extends MusicBeatState
 		add(ffslogo);
 
 		ryemirDance = new FlxSprite(750, 20);
-		ryemirDance.frames = Paths.getSparrowAtlas('characters/ryemir', 'shared');
+		ryemirDance.frames = Paths.getSparrowAtlas('characters/ryemirwithbetterhair', 'shared');
 		ryemirDance.animation.addByPrefix('dance', 'Idle', 24);
 		ryemirDance.antialiasing = ClientPrefs.globalAntialiasing;
 		ryemirDance.flipX = true;

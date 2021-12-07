@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="ryemir.png">
+<TextureAtlas imagePath="ryemirwithbetterhair.png">
 	<SubTexture name="Down0000" x="0" y="0" width="369" height="637"/>
 	<SubTexture name="Down0001" x="0" y="0" width="369" height="637"/>
 	<SubTexture name="Down0002" x="0" y="0" width="369" height="637"/>
