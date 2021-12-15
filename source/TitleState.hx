@@ -141,17 +141,17 @@ class TitleState extends MusicBeatState
 		Conductor.changeBPM(102);
 		persistentUpdate = true;
 
-		titlefloor = new FlxSprite(-600, -300).loadGraphic(Paths.image('ryemir/floor', 'shared'));
+		titlefloor = new FlxSprite(-600, -300).loadGraphic(Paths.image('ryemir/fastfood/floor', 'shared'));
 		titlefloor.antialiasing = ClientPrefs.globalAntialiasing;
 		titlefloor.updateHitbox();
 		add(titlefloor);
 
-		titlewindows = new FlxSprite(-600, -300).loadGraphic(Paths.image('ryemir/windows', 'shared'));
+		titlewindows = new FlxSprite(-600, -300).loadGraphic(Paths.image('ryemir/fastfood/windows', 'shared'));
 		titlewindows.antialiasing = ClientPrefs.globalAntialiasing;
 		titlewindows.updateHitbox();
 		add(titlewindows);
 
-		titletables = new FlxSprite(-600, -200).loadGraphic(Paths.image('ryemir/tables', 'shared'));
+		titletables = new FlxSprite(-600, -200).loadGraphic(Paths.image('ryemir/fastfood/tables', 'shared'));
 		titletables.antialiasing = ClientPrefs.globalAntialiasing;
 		titletables.updateHitbox();
 		add(titletables);
@@ -164,8 +164,8 @@ class TitleState extends MusicBeatState
 		ffslogo.updateHitbox();
 		add(ffslogo);
 
-		ryemirDance = new FlxSprite(750, 20);
-		ryemirDance.frames = Paths.getSparrowAtlas('characters/ryemirwithbetterhair', 'shared');
+		ryemirDance = new FlxSprite(750, 0);
+		ryemirDance.frames = Paths.getSparrowAtlas('characters/ryemir', 'shared');
 		ryemirDance.animation.addByPrefix('dance', 'Idle', 24);
 		ryemirDance.antialiasing = ClientPrefs.globalAntialiasing;
 		ryemirDance.flipX = true;

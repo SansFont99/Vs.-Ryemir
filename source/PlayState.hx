@@ -63,7 +63,7 @@ class PlayState extends MusicBeatState
 
 	public static var ratingStuff:Array<Dynamic> = [ // Ratings by ryemir himself
 		['You fucking suck!', 0.2], //From 0% to 19%
-		["You're so shit", 0.4], //From 20% to 39%
+		['You\'re so shit', 0.4], //From 20% to 39%
 		['Your mom :D', 0.5], //From 40% to 49%
 		['Br', 0.6], //From 50% to 59%
 		['Eh', 0.69], //From 60% to 68%
@@ -323,7 +323,7 @@ class PlayState extends MusicBeatState
 				case 'thorns':
 					curStage = 'schoolEvil';
 				case 'guns':
-					curStage = 'fastfoodnew';
+					curStage = 'fastfood';
 				case 'burgers-on-my-mind':
 					curStage = 'burgers';
 				default:
@@ -631,25 +631,19 @@ class PlayState extends MusicBeatState
 					add(bg);
 				}
 
-			case 'fastfoodnew': // ryemir week new bg | put // balls :troll: -ryemir
-				var floor:BGSprite = new BGSprite('ryemir/floor', -500, -200, 0.9, 0.9);
+			case 'fastfood': // ryemir week | put // balls :troll: -ryemir
+				var floor:BGSprite = new BGSprite('ryemir/fastfood/floor', -500, -200, 0.9, 0.9);
 				floor.updateHitbox();
 				add(floor);
 
-				var windows:BGSprite = new BGSprite('ryemir/windows', -500, -200, 0.9, 0.9);
+				var windows:BGSprite = new BGSprite('ryemir/fastfood/windows', -500, -200, 0.9, 0.9);
 				windows.updateHitbox();
 				add(windows);
 
 				if(!ClientPrefs.lowQuality) {
-				tables = new BGSprite('ryemir/tables', -500, 0, 0.9, 0.9);
+				tables = new BGSprite('ryemir/fastfood/tables', -500, 0, 1.2, 0.9);
 				tables.updateHitbox();
 				}
-
-			case 'fastfoodold': // ryemir week old bg
-				var bg:BGSprite = new BGSprite('ryemir/fastfoodold', -600, -575, 0.9, 0.9);
-				bg.setGraphicSize(Std.int(bg.width * 2.4));
-				bg.updateHitbox();
-				add(bg);
 
 			case 'burgers': // burgers
 				var burgers:BGSprite = new BGSprite('ryemir/burgers', 0, 0, 0.9, 0.9);
@@ -669,8 +663,9 @@ class PlayState extends MusicBeatState
 		add(dadGroup);
 		add(boyfriendGroup);
 
-		if(curStage == 'fastfoodnew')
+		if(curStage == 'fastfood') {
 			add(tables);
+		}
 
 		if(curStage == 'spooky') {
 			add(halloweenWhite);

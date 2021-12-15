@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				51,
-				5
+				58,
+				4
 			],
 			"loop": false,
 			"fps": 24,
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				-19,
-				-56
+				-20,
+				-62
 			],
 			"loop": false,
 			"fps": 24,
@@ -35,8 +35,8 @@
 		},
 		{
 			"offsets": [
-				17,
-				36
+				20,
+				38
 			],
 			"loop": false,
 			"fps": 24,
@@ -46,8 +46,8 @@
 		},
 		{
 			"offsets": [
-				-71,
-				-5
+				-78,
+				-6
 			],
 			"loop": false,
 			"fps": 24,
@@ -57,10 +57,10 @@
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/ryemirwithbetterhair",
+	"image": "characters/ryemir",
 	"position": [
 		0,
-		90
+		0
 	],
 	"healthicon": "ryemir",
 	"flip_x": false,
@@ -71,7 +71,7 @@
 	],
 	"camera_position": [
 		0,
-		-50
+		0
 	],
 	"sing_duration": 6.1,
 	"scale": 1

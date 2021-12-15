@@ -1,3 +1,2 @@
-fastfoodnew
-fastfoodold
+fastfood
 burgers
