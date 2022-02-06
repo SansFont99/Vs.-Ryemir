@@ -48,8 +48,8 @@ class TitleState extends MusicBeatState
 
 	var wackyImage:FlxSprite;
 
-	var easterEggEnabled:Bool = false; //Disable this to hide the easter egg
-	var easterEggKeyCombination:Array<FlxKey> = [FlxKey.B, FlxKey.B]; //bb stands for bbpanzu cuz he wanted this lmao
+	var easterEggEnabled:Bool = true; //Disable this to hide the easter egg
+	var easterEggKeyCombination:Array<FlxKey> = [FlxKey.B, FlxKey.U, FlxKey.R, FlxKey.G, FlxKey.E, FlxKey.R]; // burger
 	var lastKeysPressed:Array<FlxKey> = [];
 
 	override public function create():Void
@@ -123,9 +123,9 @@ class TitleState extends MusicBeatState
 	var titleText:FlxSprite;
 	var swagShader:ColorSwap = null;
 	var ryemirDance:FlxSprite;
-	var titlefloor:FlxSprite;
-	var titlewindows:FlxSprite;
-	var titletables:FlxSprite;
+	var floor:FlxSprite;
+	var windows:FlxSprite;
+	var tables:FlxSprite;
 
 	function startIntro()
 	{
@@ -141,22 +141,22 @@ class TitleState extends MusicBeatState
 		Conductor.changeBPM(102);
 		persistentUpdate = true;
 
-		titlefloor = new FlxSprite(-600, -300).loadGraphic(Paths.image('ryemir/fastfood/floor', 'shared'));
-		titlefloor.antialiasing = ClientPrefs.globalAntialiasing;
-		titlefloor.updateHitbox();
-		add(titlefloor);
+		floor = new FlxSprite(-600, -300).loadGraphic(Paths.image('ryemir/fastfood/floor', 'shared'));
+		floor.antialiasing = ClientPrefs.globalAntialiasing;
+		floor.updateHitbox();
+		add(floor);
 
-		titlewindows = new FlxSprite(-600, -300).loadGraphic(Paths.image('ryemir/fastfood/windows', 'shared'));
-		titlewindows.antialiasing = ClientPrefs.globalAntialiasing;
-		titlewindows.updateHitbox();
-		add(titlewindows);
+		windows = new FlxSprite(-600, -300).loadGraphic(Paths.image('ryemir/fastfood/windows', 'shared'));
+		windows.antialiasing = ClientPrefs.globalAntialiasing;
+		windows.updateHitbox();
+		add(windows);
 
-		titletables = new FlxSprite(-600, -200).loadGraphic(Paths.image('ryemir/fastfood/tables', 'shared'));
-		titletables.antialiasing = ClientPrefs.globalAntialiasing;
-		titletables.updateHitbox();
-		add(titletables);
+		tables = new FlxSprite(-600, -200).loadGraphic(Paths.image('ryemir/fastfood/tables', 'shared'));
+		tables.antialiasing = ClientPrefs.globalAntialiasing;
+		tables.updateHitbox();
+		add(tables);
 
-		ffslogo = new FlxSprite(69, 0);
+		ffslogo = new FlxSprite(600, 0);
 		ffslogo.frames = Paths.getSparrowAtlas('ffslogoBumping');
 		ffslogo.antialiasing = ClientPrefs.globalAntialiasing;
 		ffslogo.animation.addByPrefix('bump', 'logo bumpin', 24);
@@ -164,12 +164,20 @@ class TitleState extends MusicBeatState
 		ffslogo.updateHitbox();
 		add(ffslogo);
 
-		ryemirDance = new FlxSprite(750, 0);
+		if(!FlxG.save.data.psykaEasterEgg || !easterEggEnabled) {
+		ryemirDance = new FlxSprite(150, 0);
 		ryemirDance.frames = Paths.getSparrowAtlas('characters/ryemir', 'shared');
 		ryemirDance.animation.addByPrefix('dance', 'Idle', 24);
+		}
+		else
+		{
+		ryemirDance = new FlxSprite(175, 150);
+		ryemirDance.frames = Paths.getSparrowAtlas('characters/ryemirbutenysmomadeit', 'shared');
+		ryemirDance.animation.addByPrefix('dance', 'Idle', 24);
+		}
 		ryemirDance.antialiasing = ClientPrefs.globalAntialiasing;
-		ryemirDance.flipX = true;
 		ryemirDance.shader = swagShader.shader;
+		ryemirDance.updateHitbox();
 		add(ryemirDance);
 
 		titleText = new FlxSprite(100, FlxG.height * 0.8);
@@ -387,19 +395,20 @@ class TitleState extends MusicBeatState
 			switch (curBeat)
 			{
 				case 2:
-					createCoolText(['Ryemir'], 45);
-					addMoreText('SansFont99', 45);
-					addMoreText('Wyvern', 45);
+					createCoolText(['ryemir'], 45);
+					addMoreText('SansFont99', 45); // also me :D
+					addMoreText('wyvernnn', 45);
 					addMoreText('Madfurp', 45);
+					addMoreText('Enysmo', 45);
 					addMoreText('Etrodis', 45);
 				case 3:
 					addMoreText('Present', 45);
 				case 4:
 					deleteCoolText();
 				case 5:
-					createCoolText(['A mod to'], -60);
+					createCoolText(['This is a mod to'], -60);
 				case 7:
-					addMoreText('The game right below', -60);
+					addMoreText('This game right below lol', -60);
 					logoSpr.visible = true;
 				case 8:
 					deleteCoolText();
@@ -412,8 +421,10 @@ class TitleState extends MusicBeatState
 					deleteCoolText();
 				case 13:
 					addMoreText('Vs. Ryemir');
+				case 14:
+					addMoreText('Fast Food');
 				case 15:
-					addMoreText('Fast Food Showdown');
+					addMoreText('Showdown');
 				case 16:
 					skipIntro();
 			}

@@ -5,28 +5,28 @@
 			"portrait": "ryemir",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "you know funny tankman guy?"
+			"text": "you ever heard of funny tankman guy?"
 		},
 		{
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "beep boop fuck you"
+			"text": "bgdfbgdbdfbdtgr (i rape battl him)"
 		},
 		{
 			"speed": 0.05,
 			"portrait": "ryemir",
 			"boxState": "normal",
 			"expression": "talk2",
-			"text": "imma finna copy his whole flow"
+			"text": "im finna steal his whole flow"
 		},
 		{
 			"speed": 0.05,
-			"portrait": "bf",
+			"portrait": "ryemir",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "ok"
+			"expression": "talk2",
+			"text": "also my voice went through hell and back"
 		}
 	]
 }

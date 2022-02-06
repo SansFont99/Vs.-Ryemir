@@ -45,6 +45,10 @@ class StageData {
 					stage = 'school';
 				case 'thorns':
 					stage = 'schoolEvil';
+				case 'buffet' | 'guns':
+					stage = 'fastfood';
+				case 'burgers-on-my-mind':
+					stage = 'burgers';
 				default:
 					stage = 'stage';
 			}

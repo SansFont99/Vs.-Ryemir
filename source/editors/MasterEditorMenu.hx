@@ -18,8 +18,8 @@ using StringTools;
 class MasterEditorMenu extends MusicBeatState
 {
 	var options:Array<String> = [
-		'Week Editor',
-		'Menu Character Editor',
+		// 'Week Editor', No week editor because it crashesssss :(
+		// 'Menu Character Editor', shit, this one doesn't work eitherer
 		'Dialogue Editor',
 		'Dialogue Portrait Editor',
 		'Character Editor'

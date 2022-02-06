@@ -322,7 +322,7 @@ class PlayState extends MusicBeatState
 					curStage = 'school';
 				case 'thorns':
 					curStage = 'schoolEvil';
-				case 'guns':
+				case 'buffet' | 'guns':
 					curStage = 'fastfood';
 				case 'burgers-on-my-mind':
 					curStage = 'burgers';
@@ -631,7 +631,7 @@ class PlayState extends MusicBeatState
 					add(bg);
 				}
 
-			case 'fastfood': // ryemir week | put // balls :troll: -ryemir
+			case 'fastfood': // ryemir week
 				var floor:BGSprite = new BGSprite('ryemir/fastfood/floor', -500, -200, 0.9, 0.9);
 				floor.updateHitbox();
 				add(floor);
@@ -641,7 +641,7 @@ class PlayState extends MusicBeatState
 				add(windows);
 
 				if(!ClientPrefs.lowQuality) {
-				tables = new BGSprite('ryemir/fastfood/tables', -500, 0, 1.2, 0.9);
+				tables = new BGSprite('ryemir/fastfood/tables', -500, 0, 0.9, 0.9);
 				tables.updateHitbox();
 				}
 
@@ -1035,7 +1035,7 @@ class PlayState extends MusicBeatState
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
 				
-				case 'guns': // dialouge :swag:
+				case 'buffet' | 'guns': // dialouge :swag:
 					startDialogue(dialogueJson);
 
 				default:

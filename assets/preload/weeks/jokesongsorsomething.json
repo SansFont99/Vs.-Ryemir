@@ -1,0 +1,36 @@
+{
+	"storyName": "Joke songs or something",
+	"weekBackground": "jokesongsorsomething",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Guns",
+			"ryemir-enysmo",
+			[
+				255,
+				139,
+				38
+			]
+		],
+		[
+			"Burgers on my Mind",
+			"ryemir",
+			[
+				227,
+				127,
+				34
+			]
+		]
+	],
+	"weekName": "jokesongsorsomething"
+}
