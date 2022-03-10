@@ -1,0 +1,32 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "you ever heard of funny tankman guy?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "ryemir"
+		},
+		{
+			"expression": "talk",
+			"text": "bgdfbgdbdfbdtgr (i rape battl him)",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk4",
+			"text": "im finna steal his whole flow",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "ryemir"
+		},
+		{
+			"expression": "talk4",
+			"text": "also my voice went through hell and back",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "ryemir"
+		}
+	]
+}

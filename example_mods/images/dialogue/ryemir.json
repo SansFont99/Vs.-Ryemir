@@ -1,0 +1,77 @@
+{
+	"position": [
+		100,
+		75
+	],
+	"dialogue_pos": "left",
+	"no_antialiasing": false,
+	"scale": 1,
+	"image": "ryemir",
+	"animations": [
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "talk",
+			"idle_name": "Idle",
+			"loop_name": "Idle"
+		},
+		{
+			"loop_offsets": [
+				10,
+				0
+			],
+			"anim": "talk2",
+			"idle_offsets": [
+				10,
+				0
+			],
+			"loop_name": "Left",
+			"idle_name": "Left"
+		},
+		{
+			"loop_offsets": [
+				5,
+				-10
+			],
+			"anim": "talk3",
+			"idle_offsets": [
+				5,
+				-10
+			],
+			"loop_name": "Down",
+			"idle_name": "Down"
+		},
+		{
+			"loop_offsets": [
+				0,
+				10
+			],
+			"anim": "talk4",
+			"idle_offsets": [
+				0,
+				10
+			],
+			"loop_name": "Up",
+			"idle_name": "Up"
+		},
+		{
+			"loop_offsets": [
+				10,
+				-30
+			],
+			"anim": "talk5",
+			"idle_offsets": [
+				10,
+				-30
+			],
+			"loop_name": "Right",
+			"idle_name": "Right"
+		}
+	]
+}

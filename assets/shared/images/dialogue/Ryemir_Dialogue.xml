@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="Ryemir_Dialogue.png">
-<SubTexture name="Ryemir Talk Idle0000" x="0" y="0" width="177" height="386" frameX="0" frameY="0" frameWidth="177" frameHeight="386" />
-<SubTexture name="Ryemir Talk Left0000" x="177" y="0" width="207" height="392" frameX="0" frameY="0" frameWidth="207" frameHeight="392" />
-<SubTexture name="Ryemir Talk Down0000" x="0" y="392" width="209" height="358" frameX="0" frameY="0" frameWidth="209" frameHeight="358" />
-<SubTexture name="Ryemir Talk Right0000" x="209" y="392" width="213" height="386" frameX="0" frameY="0" frameWidth="213" frameHeight="386" />
-<SubTexture name="Ryemir Talk Up0000" x="0" y="778" width="212" height="409" frameX="0" frameY="0" frameWidth="212" frameHeight="409" />
-</TextureAtlas>

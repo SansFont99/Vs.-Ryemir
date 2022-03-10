@@ -1,0 +1,39 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "*fucking swallows the entire chicken nugget box without chewing*"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ryemir",
+			"boxState": "angry",
+			"expression": "talk2",
+			"text": "What the hell!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ryemir",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I'm tired of your shit."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ryemir",
+			"boxState": "normal",
+			"expression": "talk5",
+			"text": "After this song, you're fucking dead."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ryemir",
+			"boxState": "normal",
+			"expression": "talk4",
+			"text": "Let's see if you can keep up with this!"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"storyName": "Joke songs or something",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "jokesongsorsomething",
+	"weekBefore": "1-ryemir",
+	"freeplayColor": [
+		255,
+		139,
+		38
+	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Guns",
+			"ryemir",
+			[
+				255,
+				139,
+				38
+			]
+		],
+		[
+			"Burgers On My Mind",
+			"ryemir",
+			[
+				227,
+				127,
+				34
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": "joke songs or something"
+}

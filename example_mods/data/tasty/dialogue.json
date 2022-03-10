@@ -1,0 +1,151 @@
+{
+	"dialogue": [
+		{
+			"expression": "pissed",
+			"text": "bepe obo pp obop!111! (eat yo food bitch damn!!)\\n",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "It's fine, I don't like chicken nuggets.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "boboboepbpbobobp (shit they're mine then,,,)",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk2",
+			"text": "Chicken nuggets?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "ryemir"
+		},
+		{
+			"expression": "talk2",
+			"text": "How could you?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "ryemir"
+		},
+		{
+			"expression": "talk",
+			"text": "eats chicken nugget cutely",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk5",
+			"text": "Don't you know chicken nuggets have souls? You can't eat them!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "ryemir"
+		},
+		{
+			"expression": "talk5",
+			"text": "Trust me, I know, I am one!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "ryemir"
+		},
+		{
+			"expression": "confused",
+			"text": "What?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk3",
+			"text": "Long story, just tell him to stop eating them!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "ryemir"
+		},
+		{
+			"expression": "pissed",
+			"text": "bpe pboo pp bufof pk (fuck youo !!)",
+			"boxState": "angry",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk2",
+			"text": "Huh?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "ryemir"
+		},
+		{
+			"expression": "confused",
+			"text": "Oh, he says he's sorry!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "fuck yo!!!!!",
+			"text": "(sansfont insert middle finger sprite here)",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk2",
+			"text": "Hey!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "ryemir"
+		},
+		{
+			"expression": "pissed",
+			"text": "bnpp pbp[gdfpbpfrp gp (fuck you rape battle time)",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "He wants to rap battle you.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "Bf, this is the 5th time this week please.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "What a coincidence, I had a whole song planned just in case this exact scenario happened.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "ryemir"
+		},
+		{
+			"expression": "talk",
+			"text": "Another coincidence, I brought an entire speaker set!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "bppb oro roep (man wtf)",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"storyName": "Chicken Nugget Rape Battle",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "fastfood",
+	"weekBefore": "",
+	"freeplayColor": [
+		255,
+		139,
+		38
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Tasty",
+			"ryemir",
+			[
+				255,
+				139,
+				38
+			]
+		],
+		[
+			"Buffet",
+			"ryemir",
+			[
+				255,
+				139,
+				38
+			]
+		],
+		[
+			"Take A Bite",
+			"ryemir",
+			[
+				255,
+				139,
+				38
+			]
+		]
+	],
+	"weekCharacters": [
+		"ryemir",
+		"bfcolor",
+		"gfcolor"
+	],
+	"weekName": "Ryemir"
+}

@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "iujerguhyjeghyieiyhuguertfi (im stil eatin g themn fuck you)"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ryemir",
+			"boxState": "normal",
+			"expression": "talk5",
+			"text": "Hey! Get that out of your mouth!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ryemir",
+			"boxState": "normal",
+			"expression": "talk5",
+			"text": "You have to understand, they are alive!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yhmhmhmmhhm (ok andm,,)"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bobobpbpbobop (rape battle part 2!!)"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "He wants to do another song."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Bf. Why."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "ryemir",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Well, there goes my plans for today."
+		}
+	]
+}

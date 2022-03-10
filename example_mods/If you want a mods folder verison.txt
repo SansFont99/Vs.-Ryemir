@@ -1,0 +1,1 @@
+First go to your Psych Engine mods folder, create a folder called Ryemir, then copy everything in this folder and paste it to the Ryemir folder, run Psych Engine and go to the Mods menu and it should be there!
